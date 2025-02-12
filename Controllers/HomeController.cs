@@ -20,7 +20,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         var message = _configuration["ConnectionStrings"];//["AzureAd:ClientId"];
-        ViewData["Message"] = message + " que buena";
+        ViewData["Message"] = message + " que buena que funciona online";
         return View();
     }
 
